@@ -6,6 +6,7 @@
 
 struct s_char
 {
+    char *name;
     int strength;
     int intelligence;
     int wisdom;
@@ -13,6 +14,6 @@ struct s_char
     int endurance;
 };
 
-typedef struct s_char statistic;
+typedef struct s_char character;
 
 #endif
